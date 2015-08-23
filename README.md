@@ -12,17 +12,15 @@ This is all assuming that the zip file is present in your working directory.
 This script does use the dplyr package.
 
 #final.txt
-subject - numeric
+subject  (numeric)
   There were 30 subjects in the study.  This column represents the identifier for the participant.
   
-activity - factor
-  This was the activity that the subject was undergoing while the measurements were taken.  There are 6 activites:
-  -walking
-  -walking_upstairs
-  -walking_downstairs
-  -sitting
-  -standing
-  -laying
+activity (factor)
+  This was the activity that the subject was undergoing while the measurements were taken.  There are 6 activites: walking, walking_upstairs, walking_downstairs, sitting, standing, and laying.
+  
+#finalSum.txt
+
+This file represents a summary of the same information with the mean of each of the categories.  The data was grouped by subject and activity, and the mean of each category was taken.
   
 The remainder of the variables are numeric data type.  They are means and standard deviations (suffixed by mean() or std()) of various measurements.  This is explained in detail in the text files located within the zip file (see README.txt and features_info.txt for more details).
 
